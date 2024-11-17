@@ -23,6 +23,4 @@ class Solution:
             next_largest = heapq.heappop(stones)
 
             if largest != next_largest:
-                heapq.heappush(stones, largest - next_largest)
-
-        return -heapq.heappop(stones) if stones else 0
+                heapq.heap
